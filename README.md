@@ -10,7 +10,7 @@
 
 # Projet de test lecteur PCSC
 
-Ce projet a pour but de mettre en évidence un bug d'initialisation de potentiel lecteur PCSC au démarrage de l'OS. 
+Ce projet a pour but de mettre en évidence un bug d'initialisation de lecteur PCSC au démarrage de l'OS. 
 Pour cela, le résultat du projet produit un executable service windows à installer selon la procédure qui suit.
 
 ## Quelques informations 
