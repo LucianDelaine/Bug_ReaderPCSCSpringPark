@@ -15,15 +15,16 @@ Pour cela, le résultat du projet produit un executable service windows à insta
 
 ## Quelques informations 
 
- * Par défaut, le projet créer des fichiers de log dans le dossier `C:Temp`, le dossier est crée si absent. Si besoin, modifier les valeurs comprises dans le fichier `SpringCardLog.xml`
+ * Par défaut, le projet crée des fichiers de log dans le dossier `C:Temp`, le dossier est crée si absent. 
+   * Si besoin, modifiez les valeurs comprises dans le fichier `SpringCardLog.xml`
  * Si vous souhaitez modifier des codes sources et reinstaller un service préalablement configuré
    * arrêtez celui-ci dans le gestionnaire des tâches
    * écrasez les fichiers préalablement configurés
-   * relancez le services
+   * relancez le service
 
 ## Installation
 
- 1. Copier/Coller le résultat de la génération (contenu du dossier `generatedService` autogénéré à la racine de la solution) à l'emplacement souhaité
+ 1. Copier/Coller le résultat de la génération (contenu du dossier `generatedService`, autogénéré à la racine de la solution) à l'emplacement souhaité
  2. Ouvrir un interface de commande en administrateur à l'emplacement de l'executable.
  3. lancer la commande ci-dessous, en mettant à la place de ${PATH_Bug_ReaderPCSCService} la path complet de l'executable copié : 
  
