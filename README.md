@@ -28,7 +28,7 @@ Pour cela, le résultat du projet produit un executable service windows à insta
  2. Ouvrir un interface de commande en administrateur à l'emplacement de l'executable.
  3. lancer la commande ci-dessous, en mettant à la place de ${PATH_Bug_ReaderPCSCService} la path complet de l'executable copié : 
  
- `sc create POC_service binpath= "${PATH_Bug_ReaderPCSCService}" start= auto`
+ `sc create POC_service binpath= "${PATH_Bug_ReaderPCSCService}" start= auto depend= "ScDeviceEnum/SCardSvr"`
  
 > Dorénavant, un service Windows démarre en fond au démarrage de l'ordinateur et tente une connection PCSC.
 
