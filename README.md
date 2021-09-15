@@ -15,7 +15,7 @@ Pour cela, le résultat du projet produit un executable service windows à insta
 
 ## Quelques informations 
 
- * Par défaut, le projet crée des fichiers de log dans le dossier `C:Temp`, le dossier est crée si absent. 
+ * Par défaut, le projet crée des fichiers de log dans le dossier `C:\Test`, le dossier est crée si absent. 
    * Si besoin, modifiez les valeurs comprises dans le fichier `SpringCardLog.xml`
  * Si vous souhaitez modifier des codes sources et reinstaller un service préalablement configuré
    * arrêtez celui-ci dans le gestionnaire des tâches
